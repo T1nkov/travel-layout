@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 1221px;
+  margin: auto;
+}
+
+header .left-btns__log, header .left-btns__reg, main .prewiev-leftside-btn, main .info-rightside-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.black {
+  color: #202336;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  background: url(./src/img/logo.svg);
+  height: 41px;
+  width: 41px;
+}
+
+header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .left-nav p {
+  color: #b8becd;
+  font: 400 16px Inter;
+  padding: 0 34px 0 0;
+}
+
+header .left-nav p:hover {
+  color: #202336;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .left-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+}
+
+header .left-btns__log {
+  border-radius: 8px;
+  border: 1px solid #fb8f1d;
+  color: #fb8f1d;
+  font: 500 15px Inter;
+  width: 132px;
+  padding: 8px 0;
+}
+
+header .left-btns__reg {
+  border-radius: 8px;
+  background: #fb8f1d;
+  color: #fff;
+  font: 500 15px Inter;
+  width: 132px;
+  padding: 8px 0;
+}
+
+main {
+  margin: 114px 0 0 0;
+}
+
+main .prewiev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .prewiev-leftside h1 {
+  color: #202336;
+  font: 700 64px Playfair Display;
+  line-height: 80px;
+  /* 125% */
+}
+
+main .prewiev-leftside P {
+  color: #202336;
+  font: 600 22px Inter;
+  padding: 71px 0 74px 0;
+}
+
+main .prewiev-leftside-form {
+  -ms-grid-columns: 189px 189px;
+      grid-template-columns: 189px 189px;
+  -ms-grid-rows: 52px 52px;
+      grid-template-rows: 52px 52px;
+  gap: 35px 30px;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 0 41px 0;
+}
+
+main .prewiev-leftside-form__4 input {
+  width: 189px;
+  height: 52px;
+  padding: 0 0 0 32px;
+  border-radius: 6px;
+  border: 0.8px solid #afb0b9;
+}
+
+main .prewiev-leftside-btn {
+  width: 180px;
+  padding: 4px 0;
+  border-radius: 8px;
+  background: #fb8f1d;
+  color: #fff;
+  font: 700 17px Inter;
+  line-height: 60px;
+  /* 352.941% */
+}
+
+main .prewiev-rightside {
+  background: url(./src/img/thousand.png);
+  width: 506px;
+  height: 483px;
+}
+
+main .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 113px 0 192px 0;
+}
+
+main .info-leftside {
+  background: url(./src/img/Thousand2.png);
+  width: 646.66px;
+  height: 524px;
+}
+
+main .info-rightside {
+  width: 481px;
+}
+
+main .info-rightside h2 {
+  color: #000;
+  font: 700 36px Playfair Display;
+  line-height: 50px;
+  /* 138.889% */
+}
+
+main .info-rightside p {
+  color: #7d7987;
+  font: 300 17px Inter;
+  line-height: 30px;
+  /* 176.471% */
+  padding: 20px 0 33px 0;
+}
+
+main .info-rightside-btn {
+  border-radius: 8px;
+  background: #fb8f1d;
+  padding: 15px;
+  width: 164px;
+  color: #fff;
+  font-family: 600 16px Inter;
+}
+
+footer {
+  padding: 87px 0 0 0;
+  background: #F9F9FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .about-logo {
+  background: url(./src/img/logo.svg);
+  width: 41px;
+  height: 41px;
+}
+
+footer .about p {
+  color: #848484;
+  font-family: 300 18px Inter;
+}
+
+footer .about p:not(:last-child) {
+  padding: 22px 0 46px 0;
+}
+
+footer .more h3 {
+  color: #000;
+  font: 700 19px Inter;
+}
+
+footer .more p {
+  color: #848484;
+  font: 300 18px Inter;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
